@@ -1,6 +1,6 @@
 * {
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 .contact {
@@ -11,16 +11,21 @@ h1 {
   margin: 0;
 }
 
+body {
+  background-color: #FDFDF0;
+}
+
+
 
 
 /************* NAVBAR ************************/
 .navbar-default .navbar-brand {
-  color: white;
+  color: #FDFDF0;
 }
 
 /* navbar */
 .navbar-default {
-    background-color: white;
+    background-color: #FDFDF0;
     border: none;
 }
 /* title */
@@ -162,9 +167,9 @@ h1 {
 
 .name {
   display: inline-block;
-  font-size: 6em;
-  margin: 60px;
-  background-color: lightgrey;
+  font-size: 4em;
+  margin: 60px 265px;
+  background-color: #FDFDF0;
   padding: 25px;
 }
 
@@ -179,7 +184,10 @@ h1 {
 }
 
 .flower-background {
-  background: url(https://placekitten.com/800/450);
+  background: url(images/flower-bg.jpg);
+  display: block;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .image {
@@ -188,4 +196,14 @@ h1 {
   background-size: cover;
   display: inline-block;
   margin: 5px;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav > li {
+  margin: 100px 10px 25px 10px;
 }
