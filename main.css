@@ -1,0 +1,166 @@
+* {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact {
+  margin-bottom: 30px;
+}
+
+h1 {
+  margin: 0;
+}
+
+
+
+/************* NAVBAR ************************/
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #4754C2;
+    border: none;
+}
+/* title */
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #555;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: rgba(0,0,0,0);
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #555;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+
+
+.lindsay-pic {
+  border-radius: 50%;
+  width: 300px;
+}
+
+
+/**************** Services Page ******************/
+
+.title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 9em;
+  margin-bottom: 40px;
+}
+
+
+
+/**************** My Work ***************************/
+
+.grid {
+  margin: 0 auto;
+  width: 100px;
+}
+
+.grid-item {
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.pulse-over {
+  z-index: 100;
+  box-shadow: 0 5px 10px black;
+}
+
+
+
+
+
+/****************** Media Queries *********************************/
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+
+  .button {
+    font-size: 2em;
+    padding: 10px 30px;
+  }
+
+  .title {
+    font-size: 4em;
+  }
+}
+
+.main-page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.work-footer {
+  margin-top: 150px;
+  margin-bottom: 25px;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+
+.name {
+  font-size: 6em;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
