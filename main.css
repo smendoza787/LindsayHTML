@@ -187,7 +187,7 @@ a {
 }
 
 .flower-background {
-  background: url(images/flower-bg.jpg);
+  background: url(images/flower-bg.jpg) center center no-repeat;
   display: block;
   width: 90%;
   margin: 0 auto;
@@ -206,10 +206,11 @@ a {
   display: flex;
   justify-content: center;
   text-transform: uppercase;
+  margin-top: 25px;
 }
 
 .footer-nav > li {
-  margin: 10px;
+  margin: 15px;
   font-family: 'Codystar', cursive;
   font-size: 1.5em;
 }
