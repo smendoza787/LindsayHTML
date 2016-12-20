@@ -1,7 +1,6 @@
 * {
   color: black;
   font-family: 'Heebo', serif;
-  font-weight: 100;
 }
 
 .contact {
@@ -11,6 +10,10 @@
 h1 {
   margin-bottom: 50px;
   font-size: 5em;
+}
+
+p {
+  margin: 0;
 }
 
 a {
