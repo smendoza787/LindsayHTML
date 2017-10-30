@@ -34,8 +34,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid #000;
-  margin: 15px; }
+  margin: 100px 0; }
   #name h1, #name h2 {
     font-family: 'Pacifico', cursive;
     margin: 0; }
@@ -46,5 +45,15 @@ nav {
     top: -32px;
     left: 35px;
     color: #ff0077; }
+
+#contact-btn {
+  border: 2px solid #ff0077;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 150ms ease-in-out; }
+  #contact-btn:hover {
+    transition: all 150ms ease-in-out;
+    color: #fff;
+    background-color: #ff0077; }
 
 /*# sourceMappingURL=main.css.map */
