@@ -1,31 +1,48 @@
+$cursive-font: 'Comfortaa', sans-serif;
+$sans-font: 'Open Sans', sans-serif;
+$pink-color: #5c33b9;
+
 .fotorama {
-  width: 60%;
-  margin: 0 auto;
+  width: 50%;
+  margin: 100px auto 0 auto;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 15px;
-  padding-left: 10px;
+  position: fixed;
+  top: 0;
+  width: 95%;
+  height: 75px;
+  margin: 0 25px;
+  z-index: 100;
+  background-color: #fff;
+}
 
-  h1 {
-    font-size: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35px;
-    width: 35px;
-    font-family: 'Pacifico', cursive;
-    border-radius: 50%;
-    border: 3px solid #000;
-  }
+.landing-page {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#logo {
+  font-size: 1em;
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  font-family: 'Pacifico', cursive;
+  border-radius: 50%;
+  border: 3px solid #000;
 }
 
 .nav-links {
   a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: $sans-font;
     text-decoration: none;
     font-weight: 600;
     margin: 0 15px;
@@ -33,37 +50,34 @@ nav {
     transition: all 150ms ease-in-out;
 
     &:hover {
-      color: #ff0077;
+      color: $pink-color;
       transition: all 150ms ease-in-out;
     }
   }
 }
 
-#name {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 100px 0;
+.landing-name {
+  margin: 100px auto;
+  text-align: center;
 
   h1, h2 {
-    font-family: 'Pacifico', cursive;
+    font-family: $cursive-font;
     margin: 0;
   }
 
   h1 {
-    font-size: 3.5em;
+    font-size: 3em;
   }
 
   h2 {
-    position: relative;
-    top: -32px;
-    left: 35px;
-    color: #ff0077;
+    color: $pink-color;
+    font-size: 1.75em;
+    font-family: 'Pacifico', cursive;
   }
 }
 
 #contact-btn {
-  border: 2px solid #ff0077;
+  border: 2px solid $pink-color;
   padding: 10px 20px;
   border-radius: 10px;
   transition: all 150ms ease-in-out;
@@ -71,6 +85,14 @@ nav {
   &:hover {
     transition: all 150ms ease-in-out;
     color: #fff;
-    background-color: #ff0077;
+    background-color: $pink-color;
   }
+}
+
+.hidden {
+  display: none;
+}
+
+.visually-hidden {
+  opacity: 0;
 }
