@@ -5,6 +5,7 @@ $pink-color: #5c33b9;
 .fotorama {
   width: 50%;
   margin: 100px auto 0 auto;
+  border-radius: 10px;
 }
 
 nav {
@@ -57,7 +58,6 @@ nav {
 }
 
 .landing-name {
-  margin: 100px auto;
   text-align: center;
 
   h1, h2 {
@@ -95,4 +95,14 @@ nav {
 
 .visually-hidden {
   opacity: 0;
+}
+
+#social {
+  position: relative;
+  top: 20px;
+
+  a {
+    color: #ff006a;
+    margin: 0 10px;
+  }
 }

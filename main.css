@@ -1,6 +1,7 @@
 .fotorama {
   width: 50%;
-  margin: 100px auto 0 auto; }
+  margin: 100px auto 0 auto;
+  border-radius: 10px; }
 
 nav {
   display: flex;
@@ -44,7 +45,6 @@ nav {
     transition: all 150ms ease-in-out; }
 
 .landing-name {
-  margin: 100px auto;
   text-align: center; }
   .landing-name h1, .landing-name h2 {
     font-family: "Comfortaa", sans-serif;
@@ -71,5 +71,12 @@ nav {
 
 .visually-hidden {
   opacity: 0; }
+
+#social {
+  position: relative;
+  top: 20px; }
+  #social a {
+    color: #ff006a;
+    margin: 0 10px; }
 
 /*# sourceMappingURL=main.css.map */
