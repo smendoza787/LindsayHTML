@@ -27,8 +27,11 @@ body {
   background-color: #fff;
 }
 
-img {
-  width: 100%;
+.fotorama {
+  img {
+    width: 100%;
+    max-width: 750px;
+  }
 }
 
 nav {
